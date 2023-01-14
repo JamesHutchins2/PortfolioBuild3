@@ -1,0 +1,140 @@
+.exp{
+    padding: 1em;
+    background-color: #383838;
+    color: white;
+    border-radius: 1em;
+    margin: 0em;
+    display: inline-block;
+    box-shadow: 0 2px 2px 2px rgba(74, 70, 70, 0.23);
+   
+}
+.bot{
+    padding: 0.6em;
+    border-radius: 1em;
+    background-color: #0053b2;
+    color: white;
+}
+.expul{
+    list-style-type: none;
+    
+    display: block;
+    color: white;
+    text-align: left;
+}
+h4{
+    color: white;
+    font-size: 1em;
+    font-weight: 250;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+
+}
+
+.expul li{
+    margin: 1em;
+    border-radius: 1em;
+    border: white;
+    border: 1px solid;
+    display: grid;
+    padding: 1em;
+    
+}
+.expbttn{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #0053b2;
+    color: white;
+    border: 2px solid #0053b2;
+    border-radius: 1em;
+    padding: 0.6em;
+    margin: 0.6em;
+    display: inline-block;
+    box-shadow: 0 2px 2px 2px rgba(81, 79, 79, 0.23);
+}
+.expbttn:hover{
+    background-color: #0053b2;
+    color: #383838;
+   
+    
+    display: inline-block;
+    box-shadow: none;
+}
+.modal{
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.modaltext{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 250;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: block;
+    text-align: left;
+}
+.item-title{
+    color: aliceblue;
+}
+.item-sub-title{
+    color: aliceblue;
+    font-weight: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+.item-list-item-title{
+    font-size: 1.4em;
+    text-align: center;
+    font: weight 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:  #ffffff;
+}
+.list-text{
+    font-size: 1em;
+    text-align: left;
+    font: weight 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:  #000000;;
+}
+.button{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #0053b2;
+    color: white;
+    border: 2px solid #0053b2;
+    border-radius: 1em;
+    padding: 0.6em;
+    margin: 0.6em;
+    display: inline-block;
+    box-shadow: 0 2px 2px 2px rgba(81, 79, 79, 0.23);
+    text-align: center;
+
+}
+.inner-list{
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-align: left;
+    list-style:circle;
+    
+
+}
+.inner-list-item{
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    display: grid;
+    padding: 0.2em;
+
+}
+.ol-li{
+    padding: 2em;
+    text-align: center;
+}
+.sub{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 250;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: block;
+    
+    color: #ffffff;
+}
+.modal-content{
+    padding: 1.2em;
+}

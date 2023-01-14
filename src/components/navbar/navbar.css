@@ -1,0 +1,107 @@
+.SmallBar{
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: #58595b;
+  display: block;
+  text-align: left;
+  padding: .6em;
+  margin-bottom: 2em;
+}
+.SmallBar a{
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.SmallBar ul{
+  list-style-type: none;
+  
+  justify-content: space-between;
+  align-items: left;
+  padding: 0;
+  margin: 0;
+}
+.SmallBar li{
+  
+  padding: 1em;
+  
+  
+  color: white;
+}
+.SmallBar li:hover{
+  background-color: #0053b2;
+  color: #383838;
+}
+.Toggle{
+  display: inline-block;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #0053b2;
+  color: #ffffff;
+}
+.navbar{
+  width: 100%;
+  height: 100%;
+  background-color: #58595b;
+  display: block;
+  text-align: left;
+  padding: .6em;
+  margin-bottom: 2em;
+}
+.BigBar{
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: #58595b;
+  display: block;
+  text-align: left;
+  
+}
+.BigBar ul{
+  list-style-type: none;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0;
+  margin: 0;
+}
+.BigBar li{
+  display: inline-block;
+  padding: 1em;
+  
+  
+  color: white;
+}
+.BigBar li:hover{
+  background-color: #0053b2;
+  color: #383838;
+}
+.BigBar li a{
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.navbar-logo{
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: left;
+ 
+  
+}
+.name{
+  display: inline-block;
+  text-align: left;
+  float: left;
+  margin: 0.3em;
+  font-size: 1.5em;
+  margin-right: 8em;
+  
+}
+
+

@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './index.css'
+import { Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import ProjectMain from './components/Projects/ProjectMain'
+import SEC from './components/SEC/SEC'
+import StockApi from './components/StockData/StockApi'
+import Middle from './Middle'
+
+import './index.css'
+
+const App = () => {
+  return(
+    
+      
+      <Switch>
+        <Route exact path="/" component={Middle}/>
+        <Route exact path="/project/" component={ProjectMain}/>
+        <Route exact path="/SEC/" component={SEC}/>
+        <Route path="/StockApi/" component={StockApi}/>
+      </Switch>
+      
+    )
 }
 
-export default App;
+export default App

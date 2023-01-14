@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    display: block;
+}
+.secondary{
+    color: #0053b2;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: block;
+    margin: 0.5em;
+}
+.CTA{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 1em;
+    border-radius: 0.75em;
+    background-color: #eee;
+    color: black;
+    font-weight: 500;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.ctabtn{
+  
+    font-size: small;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.2em;
+    font-weight: 100;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.ctabtn:nth-child(even){
+        background-color: #383838;
+        border-color: rgb(0, 0, 0);
+        border: 2px solid rgb(0, 0, 0);
+        padding: 0.5em;
+        margin: '0.5em';
+        color: rgb(255, 255, 255);
+
+}.ctabtn:nth-child(even):hover{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1.2em;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+
+.ctabtn:nth-child(odd){
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+       
+}
+.ctabtn:nth-child(odd):hover{
+        background-color: #383838;
+        padding: 1.2em;
+        margin: '0.5em';
+        color: white;
+}

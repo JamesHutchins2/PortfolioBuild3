@@ -1,0 +1,111 @@
+
+.Expln{
+    display: block;
+    color: black;
+    text-align: left;
+    font-size: 2em;
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0.6em;
+
+}
+.ContentTitle{
+    color: rgb(0, 0, 0);
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+    margin: 1em;
+    font-size: 2em;
+}
+.ContentTitle h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: centre;
+    margin: 1em;
+    font-size: 1.2em;
+}
+.ContentTitle .txt{
+    color: rgb(0, 0, 0);
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    margin: 1em;
+    font-weight: 0.6em;
+    font-size: 0.6em;
+}
+.morebtn{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #edf4fc;
+    color: rgb(0, 0, 0);
+    border: 2px solid #0053b2;
+    border-radius: 1em;
+    padding: 0.6em;
+    margin: 0.6em;
+    display: inline-block;
+    box-shadow: 0 2px 2px 2px rgba(81, 79, 79, 0.23);
+    text-align: center;
+    font-size: 1em;
+    font-weight: 0.6em;
+}
+.morebtn:hover{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #575757;
+    color: rgb(0, 0, 0);
+    border: 2px solid #0053b2;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0.7em;
+    display: inline-block;
+    box-shadow: 0 2px 2px 2px rgba(81, 79, 79, 0.23);
+    text-align: center;
+    font-size: 1em;
+    font-weight: 0.6em;
+}
+
+.container {
+    padding: 0;
+    
+ }
+.txt{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 0.6em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.Content{
+    background-color: #0053b2;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.title{
+    color: azure;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.params{
+    color: azure;
+    font-family: 'Nanum Gothic', sans-serif;
+    list-style: decimal-leading-zero;
+    text-align: left;
+    padding-left: 20%;
+    margin: 1em;
+}
+.param{
+    color: azure;
+    font-family: 'Nanum Gothic', sans-serif;
+    list-style: circle;
+    text-align: left;
+    
+    margin: 1em;
+}
+.p{
+    color: azure;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+    margin: 1em;
+}
+.subHead{
+    color: azure;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+    margin: 1em;
+}
