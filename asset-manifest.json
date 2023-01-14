@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PortfolioBuild3/static/css/main.0fb71ac9.css",
-    "main.js": "/PortfolioBuild3/static/js/main.6421025d.js",
-    "static/media/head.jpeg": "/PortfolioBuild3/static/media/head.fb484450d14fbb92825e.jpeg",
-    "static/media/resume.pdf": "/PortfolioBuild3/static/media/resume.ed3e7fe0e56bb28f32a4.pdf",
-    "static/media/sec.png": "/PortfolioBuild3/static/media/sec.123c8edb18f18d8e74f7.png",
-    "static/media/Logo_western.png": "/PortfolioBuild3/static/media/Logo_western.00b2fab971c9ea878265.png",
-    "index.html": "/PortfolioBuild3/index.html",
-    "main.0fb71ac9.css.map": "/PortfolioBuild3/static/css/main.0fb71ac9.css.map",
-    "main.6421025d.js.map": "/PortfolioBuild3/static/js/main.6421025d.js.map"
+    "main.css": "/static/css/main.0fb71ac9.css",
+    "main.js": "/static/js/main.748e69bb.js",
+    "static/media/head.jpeg": "/static/media/head.fb484450d14fbb92825e.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.ed3e7fe0e56bb28f32a4.pdf",
+    "static/media/sec.png": "/static/media/sec.123c8edb18f18d8e74f7.png",
+    "static/media/Logo_western.png": "/static/media/Logo_western.00b2fab971c9ea878265.png",
+    "index.html": "/index.html",
+    "main.0fb71ac9.css.map": "/static/css/main.0fb71ac9.css.map",
+    "main.748e69bb.js.map": "/static/js/main.748e69bb.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb71ac9.css",
-    "static/js/main.6421025d.js"
+    "static/js/main.748e69bb.js"
   ]
 }
