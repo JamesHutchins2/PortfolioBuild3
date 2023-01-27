@@ -9,7 +9,7 @@ let DATASCI = () => {
                 <h1 className='item-title'>Data Science</h1>
                 <h2 className='item-sub-title'>Projects</h2>
                 <ul>
-                    <li className='ol-li'><h2 className='item-list-item-title'>Fluids Lab Data Processing</h2>
+                    <li  className='expli'><h2 className='item-list-item-title'>Fluids Lab Data Processing</h2>
                         <h4 className='list-text'>Using Python and pandas, I completed Multiple labs which included, </h4>
                         <ul className='inner-list'>
                             <li className='inner-list-item'>Pump preformance calculations</li>
@@ -20,9 +20,9 @@ let DATASCI = () => {
                     </li>
                     <br />
                     <br />
-                    <li className='ol-li'>
+                    <li  className='expli'>
                         <h2 className='item-list-item-title'>On going Projects</h2>
-                        <a className='button' href="/project">Click to See more</a>
+                        <a className='button' href="/project#/project">Click to See more</a>
                     </li>
                 </ul>
             </div>

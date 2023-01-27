@@ -8,6 +8,15 @@
     box-shadow: 0 2px 2px 2px rgba(74, 70, 70, 0.23);
    
 }
+.list{
+    padding: 2em;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-align: left;
+    list-style:circle;
+    padding: 0.2em;
+}
 .bot{
     padding: 0.6em;
     border-radius: 1em;
@@ -137,4 +146,23 @@ h4{
 }
 .modal-content{
     padding: 1.2em;
+}
+ul{
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-align: left;
+    list-style:circle;
+    padding: 0.2em;
+    list-style-type: circle;
+}
+.expli{
+    margin: 1em;
+    border-radius: 1em;
+    border: white;
+    border: 1px solid;
+    display: grid;
+    padding: 1em;
+    margin: 1em;
+    
 }
