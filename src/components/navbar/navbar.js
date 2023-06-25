@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import './navbar.css';
 // Components
 
-
+import Scroll from 'react-scroll'
+const ScrollLink = Scroll.ScrollLink
 
 export default class Navbar extends React.Component {
   constructor(props) {
@@ -38,15 +39,16 @@ export default class Navbar extends React.Component {
                 <Link to='/'>Home</Link>
                 </li>
                 <li>
-                <Link to='/project' className="nav-links">Projects</Link>
+                <Link to='/projects' className="nav-links">Work Experience</Link>
                 </li>
                 
                 <li>
-                  <Link to='/StockApi' className="nav-links">API example</Link>
+                  <Link to='/workExperience' className="nav-links">Projects</Link>
                 </li>
-                <li>
-                  <Link to='/SEC' className="nav-links">API example</Link>
-                </li>
+                <ScrollLink to="example-destination"  spy={true} smooth={true}   duration={500}  className='some-class' activeClass='some-active-class'>
+                  Link Text Goes Here
+                </ScrollLink>   
+                
                   
                 </ul> </div>
         )}
@@ -63,13 +65,15 @@ export default class Navbar extends React.Component {
                 <Link to='/'>Home</Link>
                 </li>
                 <li>
-                <Link to='/project' className="nav-links">Projects</Link>
+                <Link to='/projects' className="nav-links">Projects</Link>
                 </li>
                 
                 <li>
-                  <Link to='/StockApi' className="nav-links">API example</Link>
+                  <Link to='/workExperience' className="nav-links">Work Experience</Link>
                 </li>
+               
               </ul>
+             
               </div>
 
             

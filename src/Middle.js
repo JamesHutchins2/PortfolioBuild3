@@ -17,7 +17,7 @@ const Middle = (props, state) => {
   return (
     <div>
     
-      <Navbar/>
+      
       
     
       

@@ -4,6 +4,7 @@ import RD from './RD.jsx';
 import ML from './ML.jsx';
 import DATASCI from './DATASCI.jsx';
 import JSDEV from './JSDEV.jsx';
+import ClassificationProjects from './ClassificationProjects';
 
 
 
@@ -15,6 +16,7 @@ class Experience extends React.Component {
     this.handleThree = this.handleThree.bind(this);
     this.handleFour = this.handleFour.bind(this);
     this.handleFive = this.handleFive.bind(this);
+    this.handleSix = this.handleSix.bind(this);
     this.state = {isLoggedIn: 0};
   }
   handleOne() {
@@ -35,6 +37,9 @@ class Experience extends React.Component {
   handleFive() {
     this.setState({isLoggedIn: 4});
   }
+  handleSix() {
+    this.setState({isLoggedIn: 5});
+  }
   
 
   render() {
@@ -47,33 +52,34 @@ class Experience extends React.Component {
       console.log(isLoggedIn);
       
       displayItem = (
-        <div>
-            
+        <div className='body'>
+            <h1>Projects</h1>
         <ul className='expul'>
           
           <li>
-            <img className = "logo" src="" alt="" />
-            <h4>React Web Development</h4>
-            <h5>Intermediate</h5>
+            
+            <h4>Inventory Managment System</h4>
+            
             <button className='bot' onClick={this.handleTwo} >Learn More</button>
           </li>
           <li>
-            <img className = "logo" src="" alt="" />
-            <h4>Machince Learning</h4>
-            <h5>Intermediate</h5>
+            
+            <h4>Employee Hours Log System</h4>
+            
             <button className='bot' onClick={this.handleThree} >Learn More</button>
           </li>
+          
           <li>
-            <img className = "logo" src="" alt="" />
-            <h4>JS Development</h4>
-            <h5>Intermediate</h5>
-            <button className='bot' onClick={this.handleFour} >Learn More</button>
+            
+            <h4>NHL Draft Prediction Chat Bot</h4>
+            
+            <button className='bot' onClick={this.handleFive} >Learn More</button>
           </li>
           <li>
-            <img className = "logo" src="" alt="" />
-            <h4>Data Science</h4>
-            <h5>Intermediate</h5>
-            <button className='bot' onClick={this.handleFive} >Learn More</button>
+            
+            <h4>Classification Projects</h4>
+            
+            <button className='bot' onClick={this.handleSix} >Learn More</button>
           </li>
         </ul>
       </div>)
@@ -95,6 +101,10 @@ class Experience extends React.Component {
     else if(isLoggedIn === 4) {
       button = <button className='bot' onClick={this.handleOne}>Back</button>
       displayItem = <DATASCI></DATASCI>;
+    }
+    else if(isLoggedIn === 5) {
+      button = <button className='bot' onClick={this.handleOne}>Back</button>
+      displayItem = <ClassificationProjects></ClassificationProjects>;
   }
     let datacontent = (<RD />);
 

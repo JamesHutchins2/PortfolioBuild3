@@ -1,26 +1,136 @@
-.img{
-    opacity: 1;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    width: 0;
-    margin:2px;
-    border-radius: 1em;
-    display: inline-block;
+.job-experience {
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7a7a;
+    padding: 30px;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .job-experience .head_title{
+    align-content: left;
     float: left;
-}
-.abth{
-    color: azure;
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: left;
-    margin: 1em;
-}
-.abth1{
-    color: rgb(0, 0, 0);
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: left;
-    margin: 1em;
-    font-size: 1.5em;
-}
+    color : #ffffff;
+    padding: 1em;
+  }
+  .job-details h2 h3{
+    align-content: left;
+    float: left;
+  }
+  
+  .job {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f7f9fa;
+    border-radius: 5px;
+  }
+  
+  .logo {
+    width: 60px;  /* adjust this as needed */
+    height: 60px;  /* adjust this as needed */
+    margin-right: 20px;
+    /* border-radius: 50%; remove this line */
+    object-fit: cover;
+  }
+  
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .title {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    align-items: left;
+  }
+  
+  .company {
+    color: #007acc;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .duration-location {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #444;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .skills {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .education-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f7f9fa;
+    border-radius: 5px;
+  }
+  
+  .education-details {
+    flex: 1;
+  }
+  
+  .school-name {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .degree {
+    color: #007acc;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .duration {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .grade {
+    color: #444;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .activities {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  
