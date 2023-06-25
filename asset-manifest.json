@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e06d5b17.css",
-    "main.js": "/static/js/main.d482fcab.js",
+    "main.css": "/static/css/main.8e05e24f.css",
+    "main.js": "/static/js/main.d217ed3c.js",
+    "static/media/DataQuest.pdf": "/static/media/DataQuest.aee20352a86cec39fdad.pdf",
+    "static/media/resume.pdf": "/static/media/resume.a8a56bfef753f061034a.pdf",
     "static/media/head.jpeg": "/static/media/head.fb484450d14fbb92825e.jpeg",
-    "static/media/resume.pdf": "/static/media/resume.ed3e7fe0e56bb28f32a4.pdf",
-    "static/media/sec.png": "/static/media/sec.123c8edb18f18d8e74f7.png",
     "static/media/Logo_western.png": "/static/media/Logo_western.00b2fab971c9ea878265.png",
+    "static/media/BG.jpg": "/static/media/BG.26f9f593736cb625df68.jpg",
     "index.html": "/index.html",
-    "main.e06d5b17.css.map": "/static/css/main.e06d5b17.css.map",
-    "main.d482fcab.js.map": "/static/js/main.d482fcab.js.map"
+    "main.8e05e24f.css.map": "/static/css/main.8e05e24f.css.map",
+    "main.d217ed3c.js.map": "/static/js/main.d217ed3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e06d5b17.css",
-    "static/js/main.d482fcab.js"
+    "static/css/main.8e05e24f.css",
+    "static/js/main.d217ed3c.js"
   ]
 }
