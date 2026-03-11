@@ -1,3 +1,10 @@
+/* ==========================================================================
+   GLOBAL RESET & THEME
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,26 +20,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden; /* Prevents the white space/horizontal scroll issue */
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
 }
 
 button {
@@ -46,14 +55,100 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* ==========================================================================
+   LAYOUT & ALIGNMENT FIXES
+   ========================================================================== */
+
+/* Centers all main content blocks (Projects, Startups, Education, Experience) */
+.section, 
+.experience-section {
+  max-width: 75%;
+  margin: 0 auto; /* Forces center alignment */
+  text-align: left; /* Overrides any inherited center alignment for text */
+  padding: 2rem 0; /* Adds breathing room above and below sections */
+}
+
+/* Header/Hero centering to match the rest of the sections */
+.header {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 4rem 0 2rem 0;
+}
+
+.header p {
+  max-width: 100% !important; /* Overrides your inline style so it flows cleanly */
+}
+
+/* ==========================================================================
+   CAROUSEL FIXES
+   ========================================================================== */
+.carousel-container {
+  width: 100%; /* Ensures carousel stays exactly within the 75% width container */
+  position: relative;
+  overflow: hidden; /* Stops off-screen slides from causing right-side whitespace */
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* ==========================================================================
+   CV / RESUME FORMATTING
+   ========================================================================== */
+.cv-item {
+  margin-bottom: 2.5rem;
+}
+
+.cv-item ul {
+  text-align: left;
+  padding-left: 2rem; /* Pushes the bullets away from the left edge */
+  list-style-position: outside; /* Keeps multiline text wrapping neatly */
+  margin-top: 0.5rem;
+}
+
+.cv-item li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between; /* Pushes date to the right, company to the left */
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+}
+
+.cv-header h3 {
+  margin: 0;
+  text-align: left;
+}
+
+.cv-subheader {
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+/* ==========================================================================
+   LIGHT THEME
+   ========================================================================== */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -64,5 +159,56 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+/* ==========================================================================
+   FOOTER BAR (Matches Nav Bar)
+   ========================================================================== */
+.footer-bar {
+  width: 100vw;
+  background-color: #1a1a1a;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 0;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.footer-bar .nav-logo {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.footer-bar .nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer-bar .nav-link {
+  background: transparent;
+  border: none;
+  color: inherit;
+  color:#f9f9f9;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.footer-bar .nav-link:hover {
+  color: #ffffff;
+}
+
+/* Light Theme Support */
+@media (prefers-color-scheme: light) {
+  .footer-bar {
+    background-color: #242424;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 }
