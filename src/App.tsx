@@ -8,6 +8,12 @@ function App() {
 
   const projects = [
     {
+      title: "Data Science Agent / MCP Service",
+      description: "Agentic data science workflow that automates EDA, cleaning, feature engineering, model training/validation, and PCA. Uses an orchestrator-coder-validator pattern to produce reproducible Jupyter notebooks, auto-generated EDA reports, and exposes MCP tools for CSV-to-notebook runs.",
+      link: "https://github.com/JamesHutchins2/Data-Science-Agent-MCP",
+      linkText: "View on GitHub"
+    },
+    {
       title: "Appache Airflow ETL Pipeline",
       description: "A production-grade ETL system that ingests real estate listings and precomputed pool intelligence, performs large-scale data cleaning and validation, and delivers structured property insights to client-facing systems.",
       link: "https://github.com/JamesHutchins2/pool-intelligence-etl",
